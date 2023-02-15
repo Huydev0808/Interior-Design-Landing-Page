@@ -5,6 +5,9 @@
 html,body{
     font-family: Arial, Helvetica, sans-serif;
 }
+.clear{
+    clear: both;
+}
 /*HEADER*/
 .header img{
     width: 250px;
@@ -33,7 +36,34 @@ html,body{
     background-repeat: no-repeat;
     background-position: center center ;
 } 
+/* Intro */
+.intro__text{
+    font-size: 20px;
+    margin: 25px 0 40px;
+}
+.intro__text span{
+    color: red;
+    font-weight: bold;
+}
+.intro__left,.intro__right{
+    float: left;
+    width: 50%;
+}
+.intro__smallItem{
+    float: left;
+    width: 50%; 
+}
+.intro__items{
+    padding: 0 18px 25px;
+}
+.intro__items img{
+    width: 100%;
+    display: block;
+}
 /* Product */
+.products{
+    margin-bottom: 70px;
+}
 .products{
     margin-bottom: 70px;
 }
@@ -58,6 +88,8 @@ html,body{
 .products__item button{
     background-color: red;
     border: 1px solid red;
+    border-radius: 5px;
     color: white;
     padding: 5px 10px;
+    margin-top: 15px;
 }
