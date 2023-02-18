@@ -93,3 +93,38 @@ html,body{
     padding: 5px 10px;
     margin-top: 15px;
 }
+/* Banner */
+.banner{
+    position: relative;
+    background-image: url(../img/nature.jpg);
+    height: 400px;
+    /* background-repeat: no-repeat; Repeat xảy ra khi kích thước của cái image
+    trên nhỏ hơn kích thước của thẻ được thêm hình (repeat để phủ hết thẻ cha bên ngoài */
+    background-size: cover; /* Cover: kéo dãn hình cho vừa với thẻ cha */
+}
+.banner__circle{
+    position: absolute;
+    top: 15px;
+    left: 340px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+     /* rgba */
+    background-color: rgba(131, 41, 39, 0.8) ; 
+    /*opacity: 0.8; Làm mờ thẻ chứa nó và các thẻ con bên trong*/
+    color: white;
+    text-align: center;
+}
+.banner__circle p{
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+.banner__circle p:first-child{ /*Thẻ con đầu tiên trong thẻ cha*/
+    font-size: 30px;
+    margin: 50px 0  0;
+}
+.banner__circle p:nth-child(2){ /*Thẻ con thứ 2 trong thẻ cha*/
+    font-size: 80px;
+    margin: 0;
+}
+
