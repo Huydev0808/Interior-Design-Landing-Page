@@ -127,4 +127,38 @@ html,body{
     font-size: 80px;
     margin: 0;
 }
+/* Services */
+.services{
+    padding-top: 50px;
+}
+.services__content{
+    width: 70%;
+    margin: auto;
+    text-align: center;
 
+}
+.services__items{
+    float: left;
+    width: 33.33%;
+    padding: 0 10px;
+}
+.services__items i{
+    font-size: 40px;
+}
+.services__items h2{
+    margin: 10px 0px;
+}
+.services__items p{
+    margin: 0;
+}
+/* Footer */
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer h2, .footer p{
+    margin: 0;
+}
